@@ -1,0 +1,22 @@
+/*
+Aqui puedo poner un comntario
+-Etiquetas se escriben tal cual
+-Los ID's se escriben con #
+-Las clases se escriben con .
+
+SINTAXIS CSS
+Selector {
+	propiedad1: valor1;
+	propiedad2: valor2;
+	propiedad3: valor3;
+}
+*/
+body{
+	background: #ccc;
+	font-size: 22px;
+}
+form{
+	background: #fff;
+	width: 80%;
+	margin: 50px auto 50px auto;
+}

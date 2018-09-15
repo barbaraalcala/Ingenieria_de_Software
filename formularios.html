@@ -1,0 +1,55 @@
+<!--
+	CSS -> Cascada Style Sheet
+	Se puede incluir en HTML de 3 formas:
+	1. <link>
+	2. <style>
+	3.<body style="">
+-->
+
+<!DOCTYPE html>
+<html lang="es-MX">
+<head>
+	<meta charset="utf-8"></meta>
+	<title>Formularios</title>
+	<link rel="stylesheet" href="estilos.CSS">
+</head>
+<body>
+	<form action="#">
+		<div>
+			<label>Nombre</label>
+			<input type="text">
+		</div>
+		<div>
+			<label>Contraseña</label>
+			<input type="password" maxlength="4">
+		</div>
+		<div>
+			<label>Mis gustos</label>
+			<input type="checkbox"><span>Leer</span> 
+			<input type="checkbox"><span>Fútbol</span>
+			<input type="checkbox"><span>Cine</span>
+			<input type="checkbox"><span>Bailar</span>
+		</div>
+		<div>
+			<label>Género</label>
+			<input type="radio" name="genero"><span>Masculino</span>
+			<input type="radio" name="genero"><span>Femenino</span>
+			<input type="radio" name="genero"><span>Otro</span>
+		</div>
+		<div>
+			<label>Estado Civil</label>
+			<select>
+				<option value="Soltero">Soltero</option>
+				<option value="Casado">Casado</option>
+				<option value="Viudo">Viudo</option>
+				<option value="Unión Libre" selected="Unión Libre">Unión Libre</option> <!--Selected para que muestre como seleccionado-->
+				<option value="Divorciado">Divorciado</option>
+			</select>
+		</div>
+		<div>
+			<input type="submit" value="Pulsa aqui vato loco">
+		</div>
+
+</form>
+</body>
+</html>
